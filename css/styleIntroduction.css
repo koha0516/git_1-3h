@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+    font-family: YuGothic,'Yu Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+    background-color: #EAEAEA;
+    font-size: 25px;
+    color: #80564A;
+}
+
+
+.breadcrumb {
+    margin: 0;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.breadcrumb li {
+    display: inline;
+    list-style: none;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.breadcrumb li:after {
+    content: '>';
+    padding: 0 0.2rem;
+    color: #17B384;
+}
+
+.breadcrumb li:last-child:after {
+    content: '';
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: #17B384;
+}
+
+.breadcrumb li a:hover {
+    text-decoration: underline; 
+}
+
+
+.upper_content {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+    font-size: 40px;
+}
+
+.icon_frame {
+    margin: 0 auto;
+    width: 450px;
+    height: 450px;
+    border: 3px solid #80564A;
+    border-radius: 50%;
+    border-color: #80564A;
+    background-color: #FFF5E5;
+}
+
+.icon_img {
+    width: 450px;
+    height: 450px;
+}
+
+.lower_content {
+    text-align: center;
+    padding-top: 44px;  
+}
+
+.item {   
+    padding-top: 27px;
+}
+
+h2 {
+    font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+    font-size: 32px;
+}
+
+.sentence {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 775px;
+    height: 147px;
+}

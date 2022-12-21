@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: YuGothic,'Yu Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+    background-color: #EAEAEA;
+    font-size: 25px;
+    color: #80564A;
+}
+
+
+.breadcrumb {
+    margin: 0;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.breadcrumb li {
+    display: inline;
+    list-style: none;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.breadcrumb li:after {
+    content: '>';
+    padding: 0 0.2rem;
+    color: #17B384;
+}
+
+.breadcrumb li:last-child:after {
+    content: '';
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: #17B384;
+}
+
+.breadcrumb li a:hover {
+    text-decoration: underline; 
+}
+
+
+.content {
+    display: flex;
+    padding-top: 21px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+}
+
+.content img {
+    width: 900px;
+    height: 640px;
+}
+
+.item {
+    padding-left: 75px;
+    width: 825px;
+    height: 433px;
+}
+
+.item h1 {
+    text-align: center;
+    /* padding-left: 362px; */
+    font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+    font-size: 56px;
+}
+
+.item p {
+    padding-top: 18px;
+}
+
+.hr {
+    padding-left: 60px;
+    width: 1800px;
+}
+
+.location {
+    display: flex;
+    padding-top: 27px;
+    padding-left: 60px;
+}
+
+.location_map .h1 {
+    font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+    font-size: 56px;
+
+}
+
+.location_info {
+    padding-top: 84px;
+    padding-left: 50px;
+    width: 850px;
+    height: 473px;
+}
