@@ -76,6 +76,9 @@ nav ul li a{
   padding:10px;
   transition:all 0.3s;
 }
+nav ul li+ li {
+  border-left: 1px solid #000;
+}
 
 nav ul li.current a,
 nav ul li a:hover{
