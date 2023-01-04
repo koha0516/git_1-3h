@@ -2,17 +2,31 @@
 
 /*========= 上部固定させるためのCSS ===============*/
 #header{
-  height: 70px;/*高さ指定*/
-  width:100%;/*横幅指定*/
+  height:140px !important;/*高さ指定*/
+  width:1920px !important;/*横幅指定*/
   /*以下はレイアウトのためのCSS*/
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background:#333;
-  color:#ff9E3B;
+  background:#ff9E3B !important;
+  color:#000 !important;
   text-align: center;
   padding: 20px;
 }
+
+#footer{
+  height: 200px !important;/*高さ指定*/
+  width: 1920px !important;/*横幅指定*/
+  /*以下はレイアウトのためのCSS*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  background:#ff9E3B !important;
+  color:#000 !important;
+  text-align: center;
+  padding: 20px;
+}
+
 
 /*JSを使いfixedクラスが付与された際の設定*/
 #header.fixed{
@@ -40,8 +54,8 @@ p{
 }
 
 small{
-  background:#333;
-  color:#fff;
+  background:#ff9E3B;
+  color:#000;
   display: block;
   text-align: center;
   padding:20px;
@@ -58,7 +72,7 @@ nav ul{
 nav ul li a{
   display: block;
   text-decoration: none;
-  color: #666;
+  color: #000;
   padding:10px;
   transition:all 0.3s;
 }
