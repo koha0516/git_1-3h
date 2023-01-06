@@ -70,21 +70,20 @@ nav ul li a:hover{
 
 /* カルーセル */
 .carousel{
-  width:1920;  /*サイズ指定*/
-  margin:auto;
+  width:1920px !important;  /*サイズ指定*/
 }
 .carousel img{
   width: 1920px !important;
   height: 940px !important;
 }
 
-.raw {
+.fieid-select {
   display: flex;
-  width: 400;
-  height: 300px;
+  
   margin-right: 15px;
   margin-bottom: 15px;
 }
-.raw img {
-  height: 100%;
+.item img {
+  width: 400px;
+  height: 300px;
 }
