@@ -75,15 +75,17 @@ nav ul li a:hover{
 .carousel img{
   width: 1920px !important;
   height: 940px !important;
+  margin-left: 0px !important;
+  margin-bottom: 30px !important;
 }
 
 .fieid-select {
   display: flex;
-  
-  margin-right: 15px;
-  margin-bottom: 15px;
+  margin-left: 70px !important;
 }
 .item img {
   width: 400px;
   height: 300px;
+  margin-right: 40px !important;
+  margin-bottom: 30px !important;
 }
