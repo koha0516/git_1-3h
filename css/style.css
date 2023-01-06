@@ -36,10 +36,6 @@
     left:0;/*位置指定*/
 }
 
-
-/*========= レイアウトのためのCSS ===============*/
-
-
 small{
   background:#ff9E3B;
   color:#000;
@@ -48,7 +44,7 @@ small{
   padding:20px;
 }
 
-
+/*ナビ  */
 
 nav ul{
   list-style: none;
@@ -72,3 +68,23 @@ nav ul li a:hover{
   color:#fff; 
 }
 
+/* カルーセル */
+.carousel{
+  width:1920;  /*サイズ指定*/
+  margin:auto;
+}
+.carousel img{
+  width: 1920px !important;
+  height: 940px !important;
+}
+
+.raw {
+  display: flex;
+  width: 400;
+  height: 300px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.raw img {
+  height: 100%;
+}
