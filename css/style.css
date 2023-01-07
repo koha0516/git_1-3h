@@ -15,8 +15,11 @@
 }
 
 #footer{
+  position: absolute;
   height: 200px !important;/*高さ指定*/
   width: 1920px !important;/*横幅指定*/
+  top: 1860px !important;
+  left: -4px !important;
   /*以下はレイアウトのためのCSS*/
   display: flex;
   justify-content: space-between;
@@ -88,4 +91,12 @@ nav ul li a:hover{
   height: 300px;
   margin-right: 40px !important;
   margin-bottom: 30px !important;
+}
+
+#writer {
+  position: absolute;
+  top: 1540px;
+  left: 260px;
+  width: 1400px;
+  height: 220px;
 }
