@@ -1,0 +1,82 @@
+@charset "utf-8";
+body {
+    font-family: YuGothic,'Yu Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+    background-color: #EAEAEA;
+    font-size: 25px;
+    color: #80564A;
+}
+
+
+
+h1 {
+    font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+    font-size: 56px;
+}
+
+.icon_frame2 {
+    width: 450px;
+    height: 450px;
+    border: 3px solid #80564A;
+    border-radius: 50%;
+    border-color: #80564A;
+    background-color: #FFF5E5;
+}
+
+.icon_img{
+    width: 450px;
+    height: 450px;
+}
+
+  #a-1 .icon_img{
+    position: absolute !important;
+    top: 222px !important;
+    left: 270px !important;
+  }
+
+  #a-1 .icon_frame2{
+    position: absolute !important;
+    top: 222px !important;
+    left: 270px !important;
+  }
+
+  #b-1 .icon_img{
+    position: absolute !important;
+    top: 222px !important;
+    left: 1200px !important;
+  }
+
+  #b-1 .icon_frame2{
+    position: absolute !important;
+    top: 222px !important;
+    left: 1200px !important;
+  }
+
+  #a-2 .icon_img{
+    position: absolute !important;
+    top: 800px !important;
+    left: 270px !important;
+  }
+
+  #a-2 .icon_frame2{
+    position: absolute !important;
+    top: 800px !important;
+    left: 270px !important;
+  }
+
+  #b-2 .icon_img{
+    position: absolute !important;
+    top: 800px !important;
+    left: 1200px !important;
+  }
+
+  #b-2 .icon_frame2{
+    position: absolute !important;
+    top: 800px !important;
+    left: 1200px !important;
+  }
+
+  #a-1 h1{
+    position: absolute !important;
+    top: 681px !important;
+    left: 440px !important;
+  }

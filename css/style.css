@@ -15,8 +15,11 @@
 }
 
 #footer{
+  position: absolute;
   height: 200px !important;/*高さ指定*/
   width: 1920px !important;/*横幅指定*/
+  top: 1860px !important;
+  left: -4px !important;
   /*以下はレイアウトのためのCSS*/
   display: flex;
   justify-content: space-between;
@@ -36,10 +39,6 @@
     left:0;/*位置指定*/
 }
 
-
-/*========= レイアウトのためのCSS ===============*/
-
-
 small{
   background:#ff9E3B;
   color:#000;
@@ -48,7 +47,7 @@ small{
   padding:20px;
 }
 
-
+/*ナビ  */
 
 nav ul{
   list-style: none;
@@ -72,3 +71,32 @@ nav ul li a:hover{
   color:#fff; 
 }
 
+/* カルーセル */
+.carousel{
+  width:1920px !important;  /*サイズ指定*/
+}
+.carousel img{
+  width: 1920px !important;
+  height: 940px !important;
+  margin-left: 0px !important;
+  margin-bottom: 30px !important;
+}
+
+.fieid-select {
+  display: flex;
+  margin-left: 70px !important;
+}
+.item img {
+  width: 400px;
+  height: 300px;
+  margin-right: 40px !important;
+  margin-bottom: 30px !important;
+}
+
+#writer {
+  position: absolute;
+  top: 1540px;
+  left: 260px;
+  width: 1400px;
+  height: 220px;
+}
