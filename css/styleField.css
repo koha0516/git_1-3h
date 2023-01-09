@@ -75,6 +75,7 @@ body {
     text-decoration: underline; 
 }
 
+/* ----------------- */
 
 div a {
     text-decoration: none;
@@ -94,6 +95,7 @@ div a {
 .container {
     display: flex;
 }
+
 
 .item img {
     width: 960px;
@@ -156,7 +158,6 @@ div a {
     position: absolute;
     height: 200px ;/*高さ指定*/
     width: 1920px ;/*横幅指定*/
-    top: 1860px ;
     left: -4px ;
     align-items: center ;
     background:#ff9E3B ;
