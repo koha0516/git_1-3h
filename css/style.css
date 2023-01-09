@@ -1,90 +1,67 @@
 @charset "utf-8";
 
-/*========= 上部固定させるためのCSS ===============*/
+
+body {
+  background-color: #EAEAEA;
+}
+
+/* ヘッダー */
 #header{
-  height:140px !important;/*高さ指定*/
-  width:1920px !important;/*横幅指定*/
-  /*以下はレイアウトのためのCSS*/
+  height:140px ;
+  width:1920px ;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background:#ff9E3B !important;
-  color:#000 !important;
-  text-align: center;
-  padding: 20px;
-}
-
-#footer{
-  position: absolute;
-  height: 200px !important;/*高さ指定*/
-  width: 1920px !important;/*横幅指定*/
-  top: 1860px !important;
-  left: -4px !important;
-  /*以下はレイアウトのためのCSS*/
-  display: flex;
-  justify-content: space-between;
-  align-items: center !important;
-  background:#ff9E3B !important;
-  color:#000 !important;
-  text-align: center;
-  padding: 20px;
-}
-
-
-/*JSを使いfixedクラスが付与された際の設定*/
-#header.fixed{
-  position: fixed;/*fixedを設定して固定*/
-    z-index: 999;/*最前面へ*/
-    top:0;/*位置指定*/
-    left:0;/*位置指定*/
-}
-
-small{
   background:#ff9E3B;
-  color:#000;
-  display: block;
-  text-align: center;
-  padding:20px;
+  color:#fff5e5;
+  font-size: 50px;
+  font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
 }
 
-/*ナビ  */
-
+/*ヘッダーナビ  */
 nav ul{
   list-style: none;
   display: flex;
   justify-content: center;
 }
-
 nav ul li a{
   display: block;
   text-decoration: none;
-  color: #000;
+  color: #fff5e5;
   padding:10px;
   transition:all 0.3s;
 }
-nav ul li+ li {
-  border-left: 1px solid #000;
-}
-
 nav ul li.current a,
 nav ul li a:hover{
-  color:#fff; 
+  color: #17b384; 
 }
 
 /* カルーセル */
 .carousel{
   width:1920px !important;  /*サイズ指定*/
+  margin-bottom: 30px !important;
+  position: absolute;
+  left: 0px;
 }
 .carousel img{
   width: 1920px !important;
   height: 940px !important;
-  margin-left: 0px !important;
-  margin-bottom: 30px !important;
 }
 
-.fieid-select {
+/* 分野選択 */
+.field-select {
   display: flex;
   margin-left: 70px !important;
+  position: absolute;
+  top: 1140px;
+  left: 35px;
+}
+.item{
+  width: 400px;
+  height: 300px;
+  margin-right: 40px !important;
+  margin-bottom: 30px !important;
+  text-align: center;
 }
 .item img {
   width: 400px;
@@ -92,11 +69,86 @@ nav ul li a:hover{
   margin-right: 40px !important;
   margin-bottom: 30px !important;
 }
+.item img:hover{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+.item .title{
+  position: relative;
+  top: -200px;
+  font-family:"HGP創英角ゴシックUB","Zen角ゴシックBlack","NotoSansCJKJP Heavy";
+  font-size: 64px;
+  color: #fff5e5;
+}
 
-#writer {
+/* ライターページ */
+button {
   position: absolute;
   top: 1540px;
   left: 260px;
   width: 1400px;
   height: 220px;
+  background-color: #EAEAEA;
+  color: #80564A;
+  font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  font-size: 97px;
+}
+button:hover{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+/* フッダー装飾 */
+#footer{
+  position: absolute;
+  height: 200px ;/*高さ指定*/
+  width: 1920px ;/*横幅指定*/
+  top: 1860px ;
+  left: -4px ;
+  align-items: center ;
+  background:#ff9E3B ;
+  text-align: center;
+  font-family: YuGothic,'Yu Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  font-size: 32px;
+}
+small{
+  background:#ff9E3B;
+  color:#fff5e5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+/* パンくずリスト装飾 */
+.breadcrumb {
+  margin: 0;
+  padding-top: 20px;
+  list-style: none;
+}
+
+.breadcrumb li {
+  display: inline;
+  list-style: none;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.breadcrumb li:after {
+  content: '>';
+  padding: 0 0.2rem;
+  color: #17B384;
+}
+
+.breadcrumb li:last-child:after {
+  content: '';
+}
+
+.breadcrumb li a {
+  text-decoration: none;
+  color: #17B384;
+}
+
+.breadcrumb li a:hover {
+  text-decoration: underline; 
 }
