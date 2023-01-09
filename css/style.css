@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+
+body {
+  background-color: #EAEAEA;
+}
+
 /* ヘッダー */
 #header{
   height:140px ;
@@ -51,6 +56,13 @@ nav ul li a:hover{
   top: 1140px;
   left: 35px;
 }
+.item{
+  width: 400px;
+  height: 300px;
+  margin-right: 40px !important;
+  margin-bottom: 30px !important;
+  text-align: center;
+}
 .item img {
   width: 400px;
   height: 300px;
@@ -61,16 +73,27 @@ nav ul li a:hover{
   opacity: 0.6;
   transition-duration: 0.3s;
 }
+.item .title{
+  position: relative;
+  top: -200px;
+  font-family:"HGP創英角ゴシックUB","Zen角ゴシックBlack","NotoSansCJKJP Heavy";
+  font-size: 64px;
+  color: #fff5e5;
+}
 
 /* ライターページ */
-#writer {
+button {
   position: absolute;
   top: 1540px;
   left: 260px;
   width: 1400px;
   height: 220px;
+  background-color: #EAEAEA;
+  color: #80564A;
+  font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  font-size: 97px;
 }
-#writer img:hover{
+button:hover{
   opacity: 0.6;
   transition-duration: 0.3s;
 }
