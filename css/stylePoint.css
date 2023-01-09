@@ -55,6 +55,7 @@ body {
 .content img {
     width: 900px;
     height: 640px;
+    object-fit: cover;
 }
 
 .item {
@@ -89,6 +90,12 @@ body {
     font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
     font-size: 56px;
 
+}
+
+.location_map iframe{
+    width: 900px;
+    height: 580px;
+    object-fit: cover;
 }
 
 .location_info {

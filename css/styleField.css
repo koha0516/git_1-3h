@@ -54,8 +54,20 @@ div a {
     padding-right: 120px;
 }
 
+.main_item img {
+    width: 1920px;
+    height: 740px;
+    object-fit: cover;   
+}
+
 .container {
     display: flex;
+}
+
+.item img {
+    width: 960px;
+    height: 550px;
+    object-fit: cover;
 }
 
 .field2 {
