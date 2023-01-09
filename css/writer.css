@@ -28,6 +28,10 @@ h1 {
     width: 450px;
     height: 450px;
 }
+.icon_img img:hover{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
 
   #a-1{
     text-align: center;
@@ -59,6 +63,20 @@ h1 {
     position: absolute !important;
     top: 1050px !important;
     left: 1200px !important;
+  }
+
+  a{
+    font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans', sans-serif;
+    background-color: #EAEAEA;
+    font-size: 25px;
+    color: #80564A;
+    text-decoration: none;
+
+  }
+  a:hover{
+    color: #17b384; 
+    text-decoration: underline;
+
   }
 
   
