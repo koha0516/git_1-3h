@@ -11,6 +11,37 @@ body {
     color: #80564A;
 }
 
+/* ヘッダー */
+#header{
+    height:140px ;
+    width:1920px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#ff9E3B;
+    color:#fff5e5;
+    font-size: 50px;
+    font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+  }
+  
+  /*ヘッダーナビ  */
+  nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff5e5;
+    padding:10px;
+    transition:all 0.3s;
+  }
+  nav ul li.current a,
+  nav ul li a:hover{
+    color: #17b384; 
+  }
+  
 
 .breadcrumb {
     margin: 0;
@@ -119,3 +150,25 @@ div a {
     width: 775px;
     height: 66px;
 }
+
+/* フッダー装飾 */
+#footer{
+    position: absolute;
+    height: 200px ;/*高さ指定*/
+    width: 1920px ;/*横幅指定*/
+    top: 1860px ;
+    left: -4px ;
+    align-items: center ;
+    background:#ff9E3B ;
+    text-align: center;
+    font-family: YuGothic,'Yu Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+    font-size: 32px;
+  }
+  small{
+    background:#ff9E3B;
+    color:#fff5e5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
