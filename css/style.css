@@ -70,8 +70,7 @@ nav ul li a:hover{
   margin-bottom: 30px !important;
 }
 .item img:hover{
-  opacity: 0.6;
-  transition-duration: 0.3s;
+  color: #17b384; 
 }
 .item .title{
   position: relative;
@@ -79,6 +78,10 @@ nav ul li a:hover{
   font-family:"HGP創英角ゴシックUB","Zen角ゴシックBlack","NotoSansCJKJP Heavy";
   font-size: 64px;
   color: #fff5e5;
+}
+.item .title:hover{
+  opacity: 0.6;
+  transition-duration: 0.3s;
 }
 
 /* ライターページ */
