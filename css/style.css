@@ -70,7 +70,8 @@ nav ul li a:hover{
   margin-bottom: 30px !important;
 }
 .item img:hover{
-  color: #17b384; 
+  opacity: 0.6;
+  transition-duration: 0.3s;
 }
 .item .title{
   position: relative;
@@ -80,8 +81,7 @@ nav ul li a:hover{
   color: #fff5e5;
 }
 .item .title:hover{
-  opacity: 0.6;
-  transition-duration: 0.3s;
+  color: #17b384; 
 }
 
 /* ライターページ */
