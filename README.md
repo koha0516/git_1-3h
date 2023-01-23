@@ -8,7 +8,7 @@
  
 ## デモ
 
-![demo](https://user-images.githubusercontent.com/113155972/211958598-37a88f68-9769-4d05-aedf-6a1b0d919772.gif)
+![demo](https://user-images.githubusercontent.com/113155972/212592909-1918b1ca-efca-4582-ab6d-4a2d245903bb.gif)
 
 ## 使用言語
 - HTML
@@ -22,7 +22,7 @@
     - [吉田千浩](https://github.com/yoshidasen)(c.yoshida.sys22@morijyobi.ac.jp)
 
 * 所属
-    盛岡情報ビジネス＆デザイン専門学校
+    盛岡情報ビジネス＆デザイン専門学校 1-3
  
 
 
